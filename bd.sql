@@ -1,0 +1,17 @@
+CREATE DATABASE LIBRERIA;
+
+
+USE LIBRERIA;
+
+
+CREATE TABLE PERSONA(
+    id INT PRIMARY KEY,
+    nombre VARCHAR(45),
+    direccion VARCHAR(150)
+);
+
+CREATE TABLE TIENDA (
+    id INT PRIMARY KEY,
+    nombre VARCHAR(45),
+    direccion VARCHAR(150)
+);
