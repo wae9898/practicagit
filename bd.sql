@@ -9,3 +9,9 @@ CREATE TABLE PERSONA(
     nombre VARCHAR(45),
     direccion VARCHAR(150)
 );
+
+CREATE TABLE TIENDA (
+    id INT PRIMARY KEY,
+    nombre VARCHAR(45),
+    direccion VARCHAR(150)
+);
